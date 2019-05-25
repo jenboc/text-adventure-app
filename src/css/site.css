@@ -1,0 +1,42 @@
+h1 {
+    font-family: 'Consolas';
+    text-decoration: underline;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+.optionButton {
+    font-family: 'Arial Black';
+    border: 3px solid #ff00ff;
+    margin: 2px;
+    background-color: #ffffff;
+}
+
+.optionButton:hover{
+    border: 3px solid #ff0000;
+    color: #ffffff;
+    background-color: #000000;
+    transition: 1.5s;
+}
+
+.question {
+    font-family: 'Consolas';
+    font-size: 15px;
+
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+    padding: 5px;
+    border-top: 2px dotted #ffffff;
+}
+
+.questionData {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body {
+    background-color: gray;
+}

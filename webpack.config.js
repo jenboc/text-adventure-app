@@ -29,6 +29,12 @@ module.exports = {
         from: './src/stories',
         to: 'stories'
       }
+    ]),
+    new CopyWebpackPlugin([
+      {
+        from: './src/css',
+        to: 'css'
+      }
     ])
   ]
 };

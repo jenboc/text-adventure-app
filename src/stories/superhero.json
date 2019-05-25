@@ -1,0 +1,557 @@
+[
+  {
+    "id": -1,
+    "description": "Loading",
+    "availableMoves": []
+  },
+  {
+    "id": 1,
+    "description": "You are in your superhero base, you have 3 ways to go.",
+    "availableMoves": [
+      {
+        "code": "N",
+        "description": "North",
+        "relatedId": 2
+      },
+      {
+        "code": "S",
+        "description": "South",
+        "relatedId": 4
+      },
+      {
+        "code": "W",
+        "description": "West",
+        "relatedId": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "description": "You are outside your superhero base. You can see a sweetshop ahead of you. You walk towards it as you're feeling hungry. What will you do?",
+    "availableMoves": [
+      {
+        "code": "S",
+        "description": "Enter Shop",
+        "relatedId": 5
+      },
+      {
+        "code": "R",
+        "description": "Go Down The Road",
+        "relatedId": 6
+      },
+      {
+        "code": "B",
+        "description": "Go Back To Base",
+        "relatedId": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "description": "You are standing outside your superhero base. You can see a car parked outside with a flat tyre. A man is trying to fix it. What will you do?",
+    "availableMoves": [
+      {
+        "code": "H",
+        "description": "Help The Man",
+        "relatedId": 7
+      },
+      {
+        "code": "R",
+        "description": "Continue Down The Road",
+        "relatedId": 8
+      },
+      {
+        "code": "B",
+        "description": "Go Back To Base",
+        "relatedId": 1
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "description": "You are at the back of the superhero base. There is nothing here except some broken parts from your superhero vehicle. The yard is surrounded by a fence with no exits except back into the base",
+    "availableMoves": [
+      {
+        "code": "B",
+        "description": "Go Back To Base",
+        "relatedId": 1
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "description": "You walk towards the shop but it's closed. Gutted! You really liked the look of those sweets in the window. If only you could walk through walls, you could eat all the sweets in the world. Hang on a minute, you remember CAN walk through walls! What will you do?",
+    "availableMoves": [
+      {
+        "code": "W",
+        "description": "Walk Through Shop Door",
+        "relatedId": 9
+      },
+      {
+        "code": "L",
+        "description": "Come Back Later",
+        "relatedId": 10
+      },
+      {
+        "code": "B",
+        "description": "Walk Back Towards The Base",
+        "relatedId": 2
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "description": "You carry on down the road. You're still feeling hungry. What will you do?",
+    "availableMoves": [
+      {
+        "code": "S",
+        "description": "Go Back By The Shop",
+        "relatedId": 2
+      },
+      {
+        "code": "I",
+        "description": "Ignore Hunger and Carry On",
+        "relatedId": 11
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "description": "You offer to help the man with his car. He doesn't speak much English, but he's glad of the help. He asks if he can drive you anywhere. What will you do?",
+    "availableMoves": [
+      {
+        "code": "A",
+        "description": "Accept the offer",
+        "relatedId": 12
+      },
+      {
+        "code": "R",
+        "description": "Politely Refuse",
+        "relatedId": 13
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "description": "It's cloudy outside. 'Looks like snow' you say to yourself as you walk down the road.",
+    "availableMoves": [
+      {
+        "code": "C",
+        "description": "Continue",
+        "relatedId": 24
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "description": "You walk through the door into the shop. There is nobody here except an angry dog. He's looking grumpy because he knows you've come to take the sweets away! Before you can get away, the dog bites one of your legs off! You have failed your mission. You must go back to the base to fix your leg.",
+    "availableMoves": [
+      {
+        "code": "B",
+        "description": "Go Back To Base",
+        "relatedId": 1
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "description": "You carry on down the road. You see a £5 note on the floor. You think that's lucky and after checking nobody was about who might have dropped it, you put it in your pocket. You see a man walking across the road and a truck is heading for him! Should you rush and save him? Or think he'll be OK?",
+    "availableMoves": [
+      {
+        "code": "S",
+        "description": "Save Him",
+        "relatedId": 19
+      },
+      {
+        "code": "O",
+        "description": "He'll be OK",
+        "relatedId": 20
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "description": "You ignore the hunger pains and decide to carry on walking.",
+    "availableMoves": [
+      {
+        "code": "C",
+        "description": "Continue",
+        "relatedId": 23
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "description": "You accept the drive. The man drives down the road, he seems quite happy. As it turns out, he is a film director and he's looking for a superhero for his new film! You tell him that you're pretty handy in the superhero department and he gives you a job! You don't start until next week so you ask him to drop you off on the road near Tesco. It's starting to rain so you decide to run.",
+    "availableMoves": [
+      {
+        "code": "C",
+        "description": "Continue",
+        "relatedId": 16
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "description": "You politely refuse the drive. The man smiles and drives away. It starts to rain. You have an umbrella, will you use it?",
+    "availableMoves": [
+      {
+        "code": "Y",
+        "description": "Yes",
+        "relatedId": 14
+      },
+      {
+        "code": "N",
+        "description": "No",
+        "relatedId": 15
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "description": "You open the umbrella. A big gust of wind comes and blows the umbrella (with you holding on tight) into the sea. You're washed away to sea. You have failed the mission.",
+    "availableMoves": [
+      {
+        "code": "S",
+        "description": "Start Again?",
+        "relatedId": 1
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "description": "You carry on. It gets windy, but you're OK (just a little wet). You can see the Tesco up ahead. Should you run to get there? Or go back to base and try again later?",
+    "availableMoves": [
+      {
+        "code": "R",
+        "description": "Run",
+        "relatedId": 16
+      },
+      {
+        "code": "T",
+        "description": "Try Again Later",
+        "relatedId": 1
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "description": "You run to the Tesco. You see your Mum there putting shopping into her trolley. What will you do?",
+    "availableMoves": [
+      {
+        "code": "H",
+        "description": "Help your Mum",
+        "relatedId": 17
+      },
+      {
+        "code": "M",
+        "description": "Read the magazines instead",
+        "relatedId": 18
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "description": "You offer your help with your Mum's shopping. She's happy to see you (you don't visit much since you got your own base!). She buys you an ice-cream. Yum! Just what you need in the middle of summer! She offers to make your tea as well. What do you do?",
+    "availableMoves": [
+      {
+        "code": "Y",
+        "description": "Accept the offer",
+        "relatedId": 28
+      },
+      {
+        "code": "N",
+        "description": "Politely refuse (but thank her for the ice cream)",
+        "relatedId": 29
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "description": "You pick up a magazine and start reading and hoping your Mum doesn't spot you. She passes you by without noticing. But an alien comes out of the toilets and shoots you with his super ray gun. You have failed the mission!",
+    "availableMoves": [
+      {
+        "code": "B",
+        "description": "Start again?",
+        "relatedId": 1
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "description": "You rush across the road and save the man. He's so glad of your help. Noticing you're a superhero, he gives you a special ray gun. What next?",
+    "availableMoves": [
+      {
+        "code": "T",
+        "description": "Try the ray gun",
+        "relatedId": 21
+      },
+      {
+        "code": "L",
+        "description": "Try it later",
+        "relatedId": 22
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "description": "You think the man will be OK. You're right, the truck driver spots the man and swerves to avoid him. Unfortunately it swerves and hits the pavement and knocks you over. Your mission is over!",
+    "availableMoves": [
+      {
+        "code": "S",
+        "description": "Start again?",
+        "relatedId": 1
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "description": "You decide to try the ray gun. You aim at an empty Pepsi can and shoot. A big beam of green light appears from the end of the gun and blasts towards the Pepsi can. The can is destroyed completely! You laugh as you put the ray gun into your pocket. This could be fun!",
+    "availableMoves": [
+      {
+        "code": "C",
+        "description": "Continue",
+        "relatedId": 23
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "description": "You decide to use the ray gun later.",
+    "availableMoves": [
+      {
+        "code": "C",
+        "description": "Continue",
+        "relatedId": 23
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "description": "It starts to snow. You're amazed by this as it's the middle of summer. 'It shouldn't be snowing in summer!' you say to yourself as you continue to walk. You think that this must be caused by some sort of evil.",
+    "availableMoves": [
+      {
+        "code": "C",
+        "description": "Continue",
+        "relatedId": 24
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "description": "A car stops beside you. The window winds down and you see a woman driving with a small child in the back. She's asking you for directions to Morrisons, but you didn't know there was a Morrisons nearby. What do you tell the woman?",
+    "availableMoves": [
+      {
+        "code": "T",
+        "description": "Offer Tesco as an alternative",
+        "relatedId": 25
+      },
+      {
+        "code": "D",
+        "description": "Say you don't know and walk away",
+        "relatedId": 26
+      },
+      {
+        "code": "O",
+        "description": "Offer to sit in the car and help",
+        "relatedId": 27
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "description": "You tell the woman you didn't know there was a Morrisons nearby. You tell her she could try Tesco instead. She thanks you for your help and drives off towards Tesco.",
+    "availableMoves": [
+      {
+        "code": "C",
+        "description": "Continue",
+        "relatedId": 30
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "description": "You tell the woman you don't know where the Morrisons is. She looks lost now and says she wishes she had brought her sat-nav. She drives off.",
+    "availableMoves": [
+      {
+        "code": "C",
+        "description": "Continue",
+        "relatedId": 30
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "description": "You offer to get in the car and you would both be able to work out where it is together. The woman knows you're a superhero so agrees to your help. 'I wouldn't normally let a stranger in my car' she said, 'but you're a superhero. So I think you'll be OK'.",
+    "availableMoves": [
+      {
+        "code": "C",
+        "description": "Continue",
+        "relatedId": 31
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "description": "You go back to your Mum's for tea. You have a lovely time and the food was your favourite... Chicken Nuggets and Smiley Faces! Yum! After tea, you decide it's time to go home so you thank your Mum for tea and leave.",
+    "availableMoves": [
+      {
+        "code": "C",
+        "description": "Continue",
+        "relatedId": 23
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "description": "You politely refuse the offer of tea. Your Mum understands, she knows you prefer to eat McDonalds all the time even though she doesn't like the idea of you eating so much of it. You help your Mum put the shopping into her car before saying your good-byes and you continue on your way.",
+    "availableMoves": [
+      {
+        "code": "C",
+        "description": "Continue",
+        "relatedId": 23
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "description": "You hear a scream up ahead. You don't know what it is so you run towards the scream to find out. You see the woman's car from earlier stopped with an alien right in front of the car. What should you do?",
+    "availableMoves": [
+      {
+        "code": "C",
+        "description": "Chase the alien away",
+        "relatedId": 33
+      },
+      {
+        "code": "T",
+        "description": "Think the alien will leave her alone",
+        "relatedId": 40
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "description": "You're in the car talking about the weather. You still can't believe it's snowing in the middle of summer. An alien jumps in front of the car. 'Muahahaha' it screams. It's a good job you were in the car as the woman is scared. You jump out of the car and tell the alien to go home, but it just ignores you and starts to run away. You tell the woman to go home as she'll be safer there. She turns around and drives away. What next?",
+    "availableMoves": [
+      {
+        "code": "A",
+        "description": "Attack the alien now",
+        "relatedId": 32
+      },
+      {
+        "code": "C",
+        "description": "Chase the alien to see where he is going",
+        "relatedId": 33
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "description": "You attack the alien. The alien was ready for this and traps you with its super green goo swamp. You're unable to escape. Your mission is over.",
+    "availableMoves": [
+      {
+        "code": "S",
+        "description": "Start again?",
+        "relatedId": 1
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "description": "You decide to chase the alien to see where he goes. It scurries away down the road and you give chase (at a safe distance so it doesn't know you're there.)",
+    "availableMoves": [
+      {
+        "code": "C",
+        "description": "Continue",
+        "relatedId": 34
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "description": "The alien continues to rush away. You take out your ray gun and shoot. It hits the alien in the leg and it starts to limp. What next?",
+    "availableMoves": [
+      {
+        "code": "C",
+        "description": "Continue to chase",
+        "relatedId": 35
+      },
+      {
+        "code": "A",
+        "description": "Attack the alien",
+        "relatedId": 32
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "description": "You continue to give chase. The alien is rushing away from you as it thinks it can get back to its space ship before you catch up. It has a sore leg though after you shot it with your ray gun so it can't run as fast.",
+    "availableMoves": [
+      {
+        "code": "C",
+        "description": "Continue",
+        "relatedId": 36
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "description": "A truck comes around the corner, it sees the alien just in time and swerves to avoid it. A box of rocket fireworks falls from the side of the truck. You could pick it up if you wanted.",
+    "availableMoves": [
+      {
+        "code": "P",
+        "description": "Pick the fireworks up",
+        "relatedId": 37
+      },
+      {
+        "code": "L",
+        "description": "Leave the fireworks alone",
+        "relatedId": 38
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "description": "You pick the box of rocket fireworks up. Luckily you have a box of matches in your pocket still after the barbecue last night! These may come in useful!",
+    "availableMoves": [
+      {
+        "code": "C",
+        "description": "Continue",
+        "relatedId": 39
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "description": "You leave the fireworks on the floor and continue to chase the alien. While you stopped to decide, the alien has reached its space ship. It has started the engine and races off into space. You think you've won, but its left a box on the ground with wires coming from it. It's a bomb! You run for cover but it's too late. BOOM! It's all over, your mission has failed.",
+    "availableMoves": [
+      {
+        "code": "S",
+        "description": "Start again?",
+        "relatedId": 1
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "description": "You continue to chase the alien, but because you stopped to think about the fireworks and now you're carrying a heavy box, it has reached the spaceship and is about to take off! You shove some rocket fireworks into the ground and light them with the matches. As the spaceship takes off, the fireworks set off too. The rockets catch the spaceship and blow it up into a million pieces! You've saved the world! You really are a superhero! Well done!",
+    "availableMoves": [
+      {
+        "code": "S",
+        "description": "Start again?",
+        "relatedId": 1
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "description": "Not a wise move. The alien eats the car (with the woman and child in it). You can't believe you've let them down by thinking they'd be OK! You tell yourself you've failed as a superhero and go back to the base. Your mission is over.",
+    "availableMoves": [
+      {
+        "code": "S",
+        "description": "Start again?",
+        "relatedId": 1
+      }
+    ]
+  }
+]
